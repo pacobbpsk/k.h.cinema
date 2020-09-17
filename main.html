@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>K-H CINEMAS</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="portrait.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+</head>
+<body>
+  <header id="header">
+    <div class="header-title">
+      <h1>K.H CINEMAS</h1><i class="fas fa-bars menu-icon"></i>
+    </div>
+  </header>
+  
+
+  <main>
+    <!--ナビ-->
+    <nav class="nav">
+      <ul>
+
+        <a href="#now-showing" class="nav-href">
+          <li class="nav-list">上映中の映画</li>
+        </a>
+        <a href="#theater-nav" class="nav-href">
+          <li class="nav-list">施設案内</li>
+        </a>
+        <a href="#ticket" class="nav-href">
+          <li class="nav-list">チケット購入</li>
+        </a>
+        <a href="#open-time" class="nav-href">
+          <li class="nav-list">営業時間</li>
+        </a>
+        <a href="#notice" class="nav-href">
+          <li class="nav-list">お知らせ</li>
+        </a>
+        <a href="#poster" class="nav-href">
+          <li class="nav-list">発売中のポスター</li>
+        </a>
+      </ul>
+    </nav>
+
+    <!--上映中の映画-->
+    <div class="now-showing" id="now-showing">
+      <div class="sub-title now-showing-title">
+        <i class="fas fa-film sub-title-icon"></i><h2>上映中の映画</h2><i class="fas fa-chevron-down show-movie-list"></i>
+      </div>
+      <ul class="movie-menu">
+       <li class="movie-list">
+         <h3>マッドマックス</h3>
+         <p>怒りのデス・ロード</p>
+       </li>
+       <li class="movie-list">
+         <h3>映画  ドラえもん</h3>
+         <p>のび太の新恐竜</p>
+       </li>
+       <li class="movie-list">
+         <h3>事故物件</h3>
+         <p>恐い間取り</p>
+       </li>
+       <li class="movie-list">
+         <h3>コンフィデンスマンJP</h3>
+         <P>プリンセス編</P>
+       </li>
+       <li class="movie-list">
+         <h3>映画  クレヨンしんちゃん</h3>
+         <p>激突！ラクガキングダムとほぼ四人の勇者</p>
+       </li>
+       <li class="movie-list">
+         <h3>人狼ゲーム</h3>
+         <p>ビーストサイド</p>
+       </li>
+       <li class="movie-list">
+         <h3>エスター</h3>
+         <p>この娘、どこかが変だ</p>
+       </li>
+       <li class="movie-list">
+         <h3>THEY SHALL NOT GROW OLD</h3>
+         <P>彼らは生きていた</P>
+       </li>
+       <li class="movie-list">
+         <h3>ミッドウェイ</h3>
+         <p>日本の運命を変えた3日間</p>
+
+       </li>
+      </ul>
+    </div>
+
+    <!--施設案内-->
+    <div class="theater-nav" id="theater-nav">
+      <div class="sub-title theater-title">
+        <i class="fas fa-couch sub-title-icon"></i><h2>施設案内</h2><i class="fas fa-chevron-down show-theater-list"></i>
+      </div>
+      <div class="theater-nav-list">
+
+        <div>
+          <ul class="theater-list-title-wrapper">
+            <li class="theater-list-title">シアター名</li>
+            <li class="theater-list-title">席数</li>
+          </ul>
+        </div>
+        <ul>
+          <li class="theater-name">シアター1</li>
+          <li class="theater-name">200席</li>
+          
+        </ul>  
+        <ul>
+          <li class="theater-name">シアター2</li>
+          <li class="theater-name">220席</li>
+          
+        </ul>
+        <ul>
+          <li class="theater-name">シアター3</li>
+          <li class="theater-name">210席</li>
+          
+        </ul>
+        <ul>
+          <li class="theater-name">シアター4</li>
+          <li class="theater-name">230席</li>
+          
+        </ul>
+        <ul>
+          <li class="theater-name">シアター5</li>
+          <li class="theater-name">200席</li>
+          
+        </ul>
+        <ul>
+          <li class="theater-name">シアター6</li>
+          <li class="theater-name">150席</li>
+        </ul>
+        
+        
+      </div>
+      
+    </div>
+
+    <!--チケット購入-->
+    <div class="ticket" id="ticket">
+      <div class="sub-title ticket-title">
+        <i class="fas fa-ticket-alt sub-title-icon"></i><h2>チケット購入</h2><i class="fas fa-chevron-down show-ticket"></i>
+      </div> 
+      <div class="ticket-contents">
+         <h3>チケット購入方法</h3>
+         <ul>
+           <li class="how-to-ticket">インターネット</li>
+           <li class="how-to-ticket">コンビニ支払い</li>
+           <li class="how-to-ticket">店頭</li>
+         </ul>
+      </div>
+       
+    </div>
+
+    <!--営業時間-->
+    <div class="open-time" id="open-time">
+      <div class="sub-title open-time-title">
+        <i class="fas fa-clock sub-title-icon"></i><h2>営業時間</h2><i class="fas fa-chevron-down show-ticket"></i>
+      </div>
+      <div class="open-time-contents">
+        <h3>平日</h3><p>11:00〜24:00</p>
+        <h3>土日祝</h3><p>10:00〜23:00</p>
+
+      </div>
+
+    </div>
+
+    <!--お知らせ-->
+    <div class="notice" id="notice">
+      <div class="sub-title notice-title">
+        <i class="fas fa-exclamation-circle sub-title-icon"></i><h2>お知らせ</h2><i class="fas fa-chevron-down show-notice"></i>
+      </div>
+      <div class="notice-contents">
+        <div class="closed-day">
+          <h2>『今月の休館日』</h2>
+          <br>
+          <p>2日</p>
+          <p>8日</p>
+          <p>14日</p>
+          <p>25日</p>
+          <p>30日</p>
+
+        <h3>※こちらの日にちは営業しておりませんのでお気を付けください。</h3>
+        </div>
+        <div>
+          <h2></h2>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!--スライド-->
+    <div class="poster" id="poster">
+      <div class="sub-title poster-title">
+        <i class="fas fa-portrait sub-title-icon"></i><h2>発売中のポスター</h2><i class="fas fa-chevron-down show-poster"></i>
+      </div>
+
+      <ul class="slides">
+        <div class="change-btn prev-btn">＜</div>
+        <div class="change-btn next-btn">＞</div>
+        <li class="slide active">
+          <img src="https://cdn.pixabay.com/photo/2014/07/15/22/01/audrey-hepburn-394261_960_720.jpg" alt="">
+          <p>￥３,５００＋TAX</p>
+          
+        </li>
+        <li class="slide">
+          <img src="https://cdn.pixabay.com/photo/2020/09/01/19/58/woman-5536425_960_720.jpg" alt="">
+          <p>￥３,０００＋TAX</p>
+        </li>
+        <li class="slide">
+          <img src="https://cdn.pixabay.com/photo/2015/09/09/20/18/harry-potter-933064_960_720.jpg" alt="">
+          <p>￥３,０００＋TAX</p>
+
+        </li>
+        <li class="slide">
+          <img src="https://cdn.pixabay.com/photo/2016/10/09/00/18/star-wars-1724901_960_720.jpg" alt="">
+          <p>￥３,２００＋TAX</p>
+
+        </li>
+      </ul>
+      
+    </div>
+      
+
+
+
+    <!--ページトップへ-->
+    <a href="">
+
+      <div class="pageTop" id="pageTop">
+        <i class="fas fa-sort-up"></i>
+  
+      </div>
+    </a>
+
+
+
+  </main>
+
+  <footer>
+    <h5>K.H CINEMA</h5>
+    <P>2020 K.H CINEMA CO.LTD</P>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

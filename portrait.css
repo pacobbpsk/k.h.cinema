@@ -78,7 +78,7 @@
 
 /*上映中の映画*/
 .now-showing {
-  margin-top:120px;
+  padding-top:120px;
   color:rgba(0,0,0,0.7);
 }
 h2 {

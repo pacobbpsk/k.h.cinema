@@ -171,7 +171,7 @@ h3 {
 }
 .open-time-contents p {
   display:inline-block;
-  font-size:30px;
+  font-size:25px;
   padding-left:20px;
   font-weight:bold;
 
@@ -181,9 +181,7 @@ h3 {
 .notice-contents {
   display:none;
 }
-.closed-day {
-  border-bottom: 1px solid black;
-}
+
 .notice-contents h2 {
   padding-left:30px;
   margin-bottom:0;
@@ -232,6 +230,7 @@ h3 {
   position: relative;
   border-bottom: 1px solid black;
   padding-bottom:20px;
+  display:none;
 }
 .change-btn {
   font-size:50px;

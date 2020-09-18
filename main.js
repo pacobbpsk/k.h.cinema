@@ -1,14 +1,22 @@
 $(function(){
+
+  /*ナビメニュー*/
   $('.menu-icon').click(function(){
     var $nav = $('.nav');
     $nav.slideToggle('fast');
+    $('.fa-bars').toggle();
 });
+
+ $('.sub-title').click(function(){
+   $(this).find($('.fa-chevron-down')).toggleClass('fa-chevron-up');
+ });
 
 $('.nav-list').click(function(){
   $('.nav').slideUp("fast");
+  $('.fa-bars').toggle();
 })
 
-
+/*ページトップ*/
 $('#pageTop').click(function(){
   $('body,html').animate({
     scrollTop:0
@@ -16,7 +24,7 @@ $('#pageTop').click(function(){
   return false;
 });
 
-
+/*サブタイトルトグル表示*/
 var $arrow = $('.now-showing-title');
 $arrow.click(function(){
   var $now = $('.movie-list');

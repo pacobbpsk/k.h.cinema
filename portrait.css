@@ -21,11 +21,11 @@
     color:white;
     text-align: center;
     letter-spacing: 5px;
-    font-size:50px;
+    font-size:60px;
     padding:30px 0;
   }
   .fa-bars {
-    font-size: 50px;
+    font-size: 60px;
     color:white;
     text-align: right;
     position:absolute;
@@ -35,7 +35,7 @@
     padding-bottom:20px;
   }
   .fa-times {
-    font-size: 50px;
+    font-size: 60px;
     color:white;
     text-align: right;
     position:absolute;
